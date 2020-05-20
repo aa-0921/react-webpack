@@ -1,5 +1,5 @@
 const path = require('path')
-const HtmlwebpackPlugin = require('html-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   mode: 'development',
@@ -11,10 +11,11 @@ module.exports = {
   },
 
   devServer: {
-      port: '3000',
-      hot:true,
-      open:true
-  },
+        port:"3030",
+        hot:true,
+        open:true
+    },
+
   module: {
       rules:[
           {
@@ -30,10 +31,10 @@ module.exports = {
       ]
   },
   plugins: [
-      new HtmlwebpackPlugin({
-          template: './src/index.html'
-      })
-  ],
+        new HtmlWebpackPlugin({
+            template: './src/index.html'
+        })
+    ],
 
   resolve: {
       extensions: ['.js','.ts','.tsx']
