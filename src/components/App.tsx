@@ -7,7 +7,7 @@
 //     </div>
 //   )
 // }
-import React from 'react';
+import * as React from "react";
 import  { useState } from 'react';
 import * as ReactDOM from 'react-dom';
 // import './App.scss'
@@ -71,7 +71,7 @@ function HomePage() {
   );
 }
 // ReactDOM.render(<HomePage />, document.getElementById('root'));
-export default function App() {
+export function App() {
   return(
     <ZeitProvider>
       <CssBaseline />
