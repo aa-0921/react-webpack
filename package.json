@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "precommit": "lint-staged",
     "lint": "eslint src --fix -c .eslintrc.json 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server"
@@ -43,5 +42,10 @@
     "@types/react-dom": "^16.9.8",
     "@zeit-ui/react": "^1.5.0",
     "package2": "^1.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
