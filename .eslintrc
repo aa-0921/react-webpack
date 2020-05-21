@@ -4,7 +4,8 @@
   "parserOptions": {
     "sourceType": "module",
     "ecmaFeatures": {
-      "jsx": true
+      "jsx": true,
+      "ecmaVersion": 2015
     }
   },
   "env": {
