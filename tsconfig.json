@@ -10,11 +10,8 @@
     "forceConsistentCasingInFileNames": true,
     "allowJs": true,
     "esModuleInterop": true,
-    "jsx": "react"
+    "jsx": "react",
+    "noEmit": true
   },
-  "exclude": [
-    "node_modules",
-    "webpack.config.js",
-    "dist"
-  ]
+  "exclude": ["node_modules", "webpack.config.js", "dist"]
 }
