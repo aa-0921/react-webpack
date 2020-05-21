@@ -1,0 +1,19 @@
+// src/scss/index.scss
+// div {
+//   h1 {
+//     color: rosybrown;
+//   }
+// }
+$main_color: beige;
+div {
+  background-color: $main_color;
+  // background: red;
+  // width: 400px;
+  // height: 400px;
+
+  h1 {
+    color: blue;
+    font-weight: bold;
+    text-align: left;
+  }
+}
