@@ -11,10 +11,10 @@ module.exports = {
   },
 
   devServer: {
-        port:"3030",
-        hot:true,
-        open:true
-    },
+      port:"3030",
+      hot:true,
+      open:true
+  },
 
   module: {
       rules:[
