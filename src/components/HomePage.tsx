@@ -43,25 +43,3 @@ const Friends = () => (
     <p>ここにフレンズのリストを書きます</p>
   </div>
 )
-
-//   const [text, setText] = useState('');
-
-//   return (
-//     <div>
-//       <h1>
-//         <Text text={text} />
-//         入力して下さい
-//       </h1>
-//       <ZeitBtn />
-//       <SiteImage />
-//       <ZeitToast />
-//       <input
-//         type="text"
-//         value={text}
-//         onChange={e => {
-//           setText(e.target.value);
-//         }}
-//       />
-//     </div>
-//   );
-// }

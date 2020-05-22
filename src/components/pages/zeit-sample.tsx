@@ -1,10 +1,10 @@
 import * as React from "react";
-import HomePage from './HomePage';
+import HomePage from '../HomePage';
 import  { useState } from 'react';
-import { Text } from './Text';
-import { ZeitBtn } from './ZeitBtn';
-import { ZeitToast } from './ZeitToast';
-import { SiteImage } from './SiteImage';
+import { Text } from '../Text';
+import { ZeitBtn } from '../ZeitBtn';
+import { ZeitToast } from '../ZeitToast';
+import { SiteImage } from '../SiteImage';
 // import './App.scss'
 // import { ZeitProvider, CssBaseline } from '@zeit-ui/react'
 

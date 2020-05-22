@@ -1,7 +1,7 @@
 import * as React from "react";
-import { Home } from './Home';
-import { Profile } from './Profile';
-import { ZeitSample } from './zeit-sample';
+import { Home } from './components/pages/Home';
+import { Profile } from './components/pages/Profile';
+import { ZeitSample } from './components/pages/zeit-sample';
 
 import { BrowserRouter, Route, Link } from 'react-router-dom'
 
